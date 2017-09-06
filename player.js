@@ -5,6 +5,8 @@ var player = class {
     this.length = 0; // length of the bar
     this.position = 0;  // top position of the bar
                         //   bottom will be this.position + this.length
+
+    this.bar = d3.selectAll('.${this.username} .bar');
   }
 
 
