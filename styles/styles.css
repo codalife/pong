@@ -1,3 +1,11 @@
+body {
+  font: 18px monospace;
+}
+
+.myScore {
+  margin-bottom: 10px;
+}
+
 svg {
 	width: 768;
 	height: 432;
